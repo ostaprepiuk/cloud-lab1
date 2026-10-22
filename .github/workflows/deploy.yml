@@ -55,5 +55,3 @@ jobs:
           service: petfeeder-api-service
           cluster: petfeeder-cluster
           wait-for-service-stability: true
-
-# Force trigger
