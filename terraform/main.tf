@@ -281,6 +281,7 @@ resource "aws_iam_role" "github_actions" {
   })
 }
 
+
 resource "aws_iam_role_policy" "github_actions_policy" {
   name = "github-actions-policy"
   role = aws_iam_role.github_actions.id
